@@ -1,6 +1,6 @@
 import json,requests,re,base64,time
 ses=requests.Session()
-proxy='aiproxies:IPr0yalPr0xy_country-fr@geo.iproyal.com:12321'
+proxy=''
 proxies={'https':f"http://{proxy}"}
 ses.proxies=proxies
 time1=round(time.time()*1000)
